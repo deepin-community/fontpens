@@ -1,0 +1,27 @@
+Source: fontpens
+Section: devel
+Priority: optional
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Yao Wei (魏銘廷) <mwei@lxde.org>
+Build-Depends: debhelper (>=11),
+               dh-python,
+               python3-all,
+               python3-fonttools (>= 3.32.0),
+               python3-setuptools
+Standards-Version: 4.1.4
+Homepage: https://github.com/robofab-developers/fontPens
+Vcs-Git: https://salsa.debian.org/fonts-team/fontpens.git
+Vcs-Browser: https://salsa.debian.org/fonts-team/fontpens
+
+Package: python3-fontpens
+Architecture: all
+Section: python
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Classes implementing Pen protocol for manipulating UFO glyphs
+ fontPens implements Pen protocol, which are instructions to draw glyphs.  This
+ protocol is established by RoboFabs, and this library is the reference
+ implementation of the protocol, which is for manipulating UFO files.
+ .
+ The API is also compatible with FontForge Python API and FontLab VI Python
+ API.

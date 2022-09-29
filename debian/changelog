@@ -1,0 +1,13 @@
+fontpens (0.2.4-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Build-Depend on python3-fonttools (>= 3.32.0)
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 15 Dec 2018 14:49:33 -0500
+
+fontpens (0.1.0-1) unstable; urgency=medium
+
+  * Initial release. Closes: #895240
+
+ -- Yao Wei (魏銘廷) <mwei@lxde.org>  Mon, 03 Sep 2018 01:22:09 +0800
